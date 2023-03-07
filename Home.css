@@ -15,67 +15,67 @@ p{
     
 }
 #imgdebut{
-    width: 275px;
-    height: 275px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     top: 325px;
     left: 275px;
 }
 #imgfearless{
-    width: 275px;
-    height: 275px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     top: 325px;
-    left: 555px;
+    left: 530px;
 }
 #imgspeaknow{
-    width: 275px;
-    height: 275px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     top: 325px;
-    left: 835px;
+    left: 785px;
 }
 #imgred{
-    width: 275px;
-    height: 275px;
+    width: 250px;
+    height: 250px;
     position: absolute;
-    top: 605px;
+    top: 580px;
     left: 275px;
 }
 #img1989{
-    width: 275px;
-    height: 275px;
+    width: 250px;
+    height: 250px;
     position: absolute;
-    top: 605px;
-    left: 835px;
+    top: 580px;
+    left: 785px;
 }
 #imgreputation{
-    width: 275px;
-    height: 275px;
+    width: 250px;
+    height: 250px;
     position: absolute;
-    top: 880px;
+    top: 835px;
     left: 275px;
 }
 #imglover{
-    width: 275px;
-    height: 275px;
+    width: 250px;
+    height: 250px;
     position: absolute;
-    top: 880px;
-    left: 835px;
+    top: 835px;
+    left: 785px;
 }
 #imgfolklore{
-    width: 275px;
-    height: 275px;
+    width: 250px;
+    height: 250px;
     position: absolute;
-    top: 1155px;
+    top: 1085px;
     left: 275px;
 }
 #imgevermore{
-    width: 275px;
-    height: 275px;
+    width: 250px;
+    height: 250px;
     position: absolute;
-    top: 1155px;
-    left: 835px;
+    top: 1085px;
+    left: 785px;
 
 }
 #imgmidnights{}
@@ -139,3 +139,4 @@ ul {
 .dropdown:hover .dropdown-content {
   display: block;
     {background-color: lavender;}
+}
