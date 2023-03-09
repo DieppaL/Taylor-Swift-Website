@@ -25,6 +25,16 @@ p{
     width: 200px;
     height: 200px;
 }
+.image2 {
+    position: absolute;
+    top:-610px;
+    bottom:0;
+    left:410px;
+    right:0;
+    display: block;
+    width: 200px;
+    height: 610px;
+}
 .text {
     color: white;
     font-size: 20px;
@@ -150,9 +160,10 @@ p{
 /*Midnights*/
 .overlayBottom{
     width: 100%;
-    height: 0;
+    height:0;
+    top:-610px;
     bottom:0;
-    left:0;
+    left:410px;
     background-color: #212844;
 }
 .container:hover .overlayBottom {
