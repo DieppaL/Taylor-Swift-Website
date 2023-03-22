@@ -2,101 +2,87 @@
 <html>
     
 <head>
+    <title>Taylor Swift</title>
     <meta charset="utf-8">
-    <meta name="viewport"content="width=device-width, initial-scale=1">
-    <style>
-.navbar {
-  overflow: hidden;
-  background-color: #a68249;
-}
-.navbar a {
-  float:left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 14px;
-  text-decoration: none;
-}
-
-.dropdown {
-  float:left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 14px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #728FA3;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-    
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-</style>
- </head>
-<body style="background-color:#c2a474;"> 
-    <!-- Menu Bar -->
-       <div class="navbar">
- <h2 style="color: white"><center>Taylor Swift</center></h2> 
-      <a href="#home">Home</a>
-  <div class="dropdown">
-    <button class="dropbtn">Albums
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Debut</a>
-      <a href="#">Fearless</a>
-      <a href="#">Speak Now</a>
-      <a href="#">RED</a>
-      <a href="#">1989</a>
-      <a href="#">Reputation</a>
-      <a href="#">Lover</a>
-      <a href="#">Folklore</a>
-      <a href="#">Evermore</a>
-      <a href="#">Midnights</a>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Home.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body> 
+<div style="background: #C2A474">
+<div class="container">
+      <!-- Menu Bar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #A6824A;">
+  <a class="navbar-brand" href="#">Taylor Swift</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link text-dark" href="Home%20Page.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="Follow%20Page.html">Follow</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Albums
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="Album%2520Pages/Debut%20Page.html">Debut</a>
+          <a class="dropdown-item" href="Album%2520Pages/Fearless%20Page.html">Fearless</a>
+          <a class="dropdown-item" href="Album%2520Pages/Speak%20Now%20Page.html">Speak Now</a>
+          <a class="dropdown-item" href="Album%2520Pages/Red%20Page.html">RED</a>
+          <a class="dropdown-item" href="Album%2520Pages/1989%20Page.html">1989</a>
+          <a class="dropdown-item" href="Album%2520Pages/Reputation%20Page.html">Reputation</a>
+          <a class="dropdown-item" href="Album%2520Pages/Lover%20Page.html">Lover</a>
+          <a class="dropdown-item" href="Album%2520Pages/Folklore%20Page.html">Folklore</a>
+          <a class="dropdown-item" href="Album%2520Pages/Evermore%20Page.html">Evermore</a>
+          <a class="dropdown-item" href="Album%2520Pages/Midnights%20Page.html">Midnights</a>
+         
+            
         </div>
-  </div> 
-      <a href="#home">Follow</a>       
-</div>
-<br>
-    <h1>FEARLESS(Taylor's Version)</h1>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <h1 align='center'>FEARLESS(Taylor's Version)</h1>
 <br>
 <div align='center'>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/aXzVF3XeS8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+    <h3 align="center">Track List</h3>
+    <ol class="list-inline justify-content-center">
+    <li align="center">Fearless</li>	
+    <li align="center">Fifteen </li>	 
+	<li align="center">Love Story	</li> 	 	
+	<li align="center">Hey Stephen	</li> 	 	
+	<li align="center">White Horse</li>
+	<li align="center">You Belong with Me</li>
+	<li align="center">Breathe (featuring Colbie Caillat)</li>	
+	<li align="center">Tell Me Why	</li>
+	<li align="center">You're Not Sorry</li> 	 	
+    <li align="center">The Way I Loved You</li>
+	<li align="center">Forever & Always</li> 	 
+	<li align="center">The Best Day</li> 	 	
+	<li align="center">Change</li>
+    <li align="center">Jump Then Fall</li>	 	 	
+    <li align="center">Untouchable</li>
+	<li align="center">Forever & Always (piano version)</li>
+	<li align="center">Come In with the Rain</li>	
+	<li align="center">Superstar</li>
+	<li align="center">The Other Side of the Door</li>
+    <li align="center">Today Was a Fairytale</li>	
+    <li align="center">You All Over Me (featuring Maren Morris)</li>	
+	<li align="center">Mr. Perfectly Fine</li>	 	
+	<li align="center">We Were Happy</li>	
+	<li align="center">That's When (featuring Keith Urban)</li>	
+	<li align="center">Don't You</li>
+	<li align="center">Bye Bye Baby</li>
+    </ol>
     <h3>Background</h3>
     
     <p>
@@ -124,34 +110,12 @@
     
     <p>Swift pulled Fearless (Taylor’s Version) from contending for Grammy Awards and Country Music Association (CMA) Awards. On July 20, 2021, a Republic Records representative explained to Billboard that Swift will not submit the album to any of the categories, since "Fearless has already won four Grammys including album of the year, as well as the CMA Award for album of the year in 2009/2010 and remains the most awarded country album of all time." Nevertheless, Fearless (Taylor's Version) was nominated for Top Country Album at the 2022 Billboard Music Awards, alongside Red (Taylor's Version) in the same category; the latter won the award.
     </p>
-    <h3>Tracklist</h3>
-    <ol>
-    <li>Fearless</li>	
-    <li>Fifteen </li>	 
-	<li>Love Story	</li> 	 	
-	<li>Hey Stephen	</li> 	 	
-	<li>White Horse</li>
-	<li>You Belong with Me</li>
-	<li>Breathe (featuring Colbie Caillat)</li>	
-	<li>Tell Me Why	</li>
-	<li>You're Not Sorry</li> 	 	
-    <li>The Way I Loved You</li>
-	<li>Forever & Always</li> 	 
-	<li>The Best Day</li> 	 	
-	<li>Change</li>
-    <li>Jump Then Fall</li>	 	 	
-    <li>Untouchable</li>
-	<li>Forever & Always (piano version)</li>
-	<li>Come In with the Rain</li>	
-	<li>Superstar</li>
-	<li>The Other Side of the Door</li>
-    <li>Today Was a Fairytale</li>	
-    <li>You All Over Me (featuring Maren Morris)</li>	
-	<li>Mr. Perfectly Fine</li>	 	
-	<li>We Were Happy</li>	
-	<li>That's When (featuring Keith Urban)</li>	
-	<li>Don't You</li>
-	<li>Bye Bye Baby</li>
-    </ol>
+
+<!-- Footer-->
+<footer class="footer mt-auto py-3" style="background-color:  #A6824A;">
+  <div class="container">
+    <span class="text-muted">Made by a Swiftie</span>
+  </div>
+</footer>
 </body>
 </html>
