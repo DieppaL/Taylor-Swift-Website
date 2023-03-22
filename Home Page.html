@@ -7,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Home.css" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 <body> 
 <div style="background: #B2A4BF">
 <div class="container">
       <!-- Menu Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #5e5e9b;">
   <a class="navbar-brand" href="#">Taylor Swift</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -21,14 +22,14 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-dark" href="Home%20Page.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Follow</a>
+        <a class="nav-link text-dark" href="Follow%20Page.html">Follow</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
+        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Albums
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="Album%2520Pages/Debut%20Page.html">Debut</a>
@@ -47,6 +48,7 @@
       </li>
     </ul>
   </div>
+</nav>
 
     <!-- Intro Text--> 
 <p>
@@ -55,144 +57,101 @@
 <p>
     Having sold over 200 million records globally, Swift is one of the best-selling musicians in history. She is the most streamed woman on Spotify, and the only act to have five albums open with over one million copies sold in the US. Among her accolades are 11 Grammy Awards, including three Album of the Year wins; an Emmy Award; 40 American Music Awards; 29 Billboard Music Awards; and 92 Guinness World Records. Swift has been featured in rankings such as Rolling Stone's 100 Greatest Songwriters of All Time, Billboard's Greatest of All Time Artists, the Time 100 and Forbes Celebrity 100. Honored with titles such as Artist of the Decade and Woman of the Decade, Swift is an advocate for artists' rights and women's empowerment. Her music is credited with influencing a generation of singer-songwriters.
 </p>
- <div class="row mb-3 text-center">
-      <div class="col-4 themed-grid-col">
-            <div class="box">
-            <img id="debut" src="Photos/Debut.jpg" alt="Debut Album Cover" class="image">
-            <div class="overlay  overlayLeft">
-                <div class="text">Debut</div>
-            </div>
-          </div>
-            <div class="box">
-            <img id="red" src="Photos/Red.jpg" alt="Red Album Cover" class="image">
-            <div class="overlay overlayLeft2" >
-                <div class="text">Red</div>
-            </div>
-            </div>
-            <div class="box">
-            <img id="rep" src="Photos/Reputation.jpg" alt="Reputation Album Cover" class="image">
-            <div class="overlay overlayLeft3">
-                <div class="text">Reputation</div>
-            </div>
-            </div>
-            <div class="box">
-            <img id="folklore" src="Photos/folklore.jpg" alt="Folklore Album Cover" class="image">
-            <div class="overlay overlayLeft4">
-                <div class="text">Folklore</div>
-            </div>
-            </div>
-      <div class="col-4 themed-grid-col">
-            <div class="box">
-            <img id="fearless" src="Photos/Fearless.jpg" alt="Fearless Album Cover" class="image">
-            <div class="overlay overlayTop">
-                <div class="text">Fearless</div>
-            </div>
-            </div>
-            <div class="box">
-            <img id="midnights" src="Photos/Midnights.jpg" alt="Midnights Album Cover" class="image2">
-            <div class="overlay overlayBottom">
-                <div class="text">Midnights</div>
-            </div>
-            </div>
-     </div>
-      <div class="col-4 themed-grid-col"> 
-         <div class="box">
-            <img id="speaknow"src="Photos/Speak%20Now.jpg" alt="Speak Now Album Cover" class="image">
-            <div class="overlay overlayRight">
-                <div class="text">SpeakNow</div>
-             </div>
-            </div>
-            <div class="box">
-            <img id="1989" src="Photos/1989.jpg" alt="1989 Album Cover" class="image">
-            <div class="overlay overlayRight2">
-                <div class="text">1989</div>
-            </div>
-            </div>
-          <div class="box">
-            <img id="lover"src="Photos/Lover.jpg" alt="Lover Album Cover" class="image">
-            <div class="overlay overlayRight3" >
-                <div class="text">Lover</div>
-            </div>
-            </div>
-           <div class="box">
-            <img id="evermore" src="Photos/Evermore.jpg" alt="Evermore Album Cover" class="image">
-            <div class="overlay overlayRight4">
-                <div class="text">Evermore</div>
-            </div>
-        </div>
+<!--Images-->
+<div class="container">
+ <div class="row">
+    <div class="col">
+      <div class="box">
+       <img id="debut" src="Photos/Debut.jpg" alt="Debut Album Cover" class="image">
+       <div class="overlay  overlayLeft">
+       <div class="text">Debut</div>
+       </div>
+       </div>
+    </div>
+    <div class="col">
+      <div class="box">
+      <img id="fearless" src="Photos/Fearless.jpg" alt="Fearless Album Cover" class="image">
+      <div class="overlay overlayTop">
+      <div class="text">Fearless</div>
       </div>
-  <!-- Images-->
-<div align="center">
-    <div>
-        <!--<div class="container">
-            <img id="debut" src="Photos/Debut.jpg" alt="Debut Album Cover" class="image">
-            <div class="overlay  overlayLeft">
-                <div class="text">Debut</div> 
-            </div>
-        </div>-->
-        <!--<div class="container">
-            <img id="fearless" src="Photos/Fearless.jpg" alt="Fearless Album Cover" class="image">
-            <div class="overlay overlayTop">
-                <div class="text">Fearless</div>
-            </div>
-        </div>-->
-       <!-- <div class="container">
-            <img id="speaknow"src="Photos/Speak%20Now.jpg" alt="Speak Now Album Cover" class="image">
-            <div class="overlay overlayRight">
-                <div class="text">SpeakNow</div> 
-            </div>
-        </div>-->
+      </div>
     </div>
-    <div>
-        <!--<div class="container">
-            <img id="red" src="Photos/Red.jpg" alt="Red Album Cover" class="image">
-            <div class="overlay overlayLeft2" >
-                <div class="text">Red</div>
-            </div>
-        </div>-->
-       <!-- <div class="box">
+    <div class="col">
+      <div class="box">
+      <img id="speaknow"src="Photos/Speak%20Now.jpg" alt="Speak Now Album Cover" class="image">
+      <div class="overlay overlayRight">
+      <div class="text">SpeakNow</div>
+      </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="box">
+      <img id="red" src="Photos/Red.jpg" alt="Red Album Cover" class="image">
+      <div class="overlay overlayLeft2" >
+      <div class="text">Red</div>
+      </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="box">
             <img id="1989" src="Photos/1989.jpg" alt="1989 Album Cover" class="image">
             <div class="overlay overlayRight2">
                 <div class="text">1989</div>
             </div>
-        </div>-->
-       <!-- <div class="box">
-            <img id="rep" src="Photos/Reputation.jpg" alt="Reputation Album Cover" class="image">
-            <div class="overlay overlayLeft3">
-                <div class="text">Reputation</div>
             </div>
-        </div>-->
     </div>
-    <div>
-        <!--<div class="box">
-            <img id="lover"src="Photos/Lover.jpg" alt="Lover Album Cover" class="image">
-            <div class="overlay overlayRight3" >
-                <div class="text">Lover</div>
-            </div>
-        </div>-->
-        <!-- <div class="box">
-            <img id="folklore" src="Photos/folklore.jpg" alt="Folklore Album Cover" class="image">
-            <div class="overlay overlayLeft4">
-                <div class="text">Folklore</div>
-            </div>
-        </div>-->
-        <!--<div class="box">
-            <img id="evermore" src="Photos/Evermore.jpg" alt="Evermore Album Cover" class="image">
-            <div class="overlay overlayRight4">
-                <div class="text">Evermore</div>
-            </div>
-        </div>-->
-    </div>
-    <div>
-        <!--<div class="box">
-            <img id="midnights" src="Photos/Midnights.jpg" alt="Midnights Album Cover" class="image2">
-            <div class="overlay overlayBottom">
-                <div class="text">Midnights</div>
-            </div>
-        </div>-->
-    </div>
+  </div>
 </div>
-
+    <div class="row">
+    <div class="col">
+      <div class="box">
+      <img id="rep" src="Photos/Reputation.jpg" alt="Reputation Album Cover" class="image">
+      <div class="overlay overlayLeft3">
+      <div class="text">Reputation</div>
+       </div>
+       </div>
+    </div>
+    <div class="col">
+      <div class="box">
+      <img id="lover"src="Photos/Lover.jpg" alt="Lover Album Cover" class="image">
+      <div class="overlay overlayRight3" >
+      <div class="text">Lover</div>
+      </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="box">
+      <img id="folklore" src="Photos/folklore.jpg" alt="Folklore Album Cover" class="image">
+      <div class="overlay overlayLeft4">
+      <div class="text">Folklore</div>
+      </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="box">
+      <img id="evermore" src="Photos/Evermore.jpg" alt="Evermore Album Cover" class="image">
+      <div class="overlay overlayRight4">
+      <div class="text">Evermore</div>
+      </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="box">
+      <img id="midnights" src="Photos/Midnights.jpg" alt="Midnights Album Cover" class="image">
+      <div class="overlay overlayRight5">
+      <div class="text">Midnights</div>
+      </div>
+      </div>
+    </div>
+  </div>
+<!-- Footer-->
+<footer class="footer mt-auto py-3" style="background-color: #5e5e9b;">
+  <div class="container">
+    <span class="text-muted">Made by a Swiftie</span>
+  </div>
+</footer>
+    
+</div>
 </div>
 </body>
 </html>

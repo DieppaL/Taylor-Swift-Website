@@ -28,16 +28,6 @@ p{
     width: 200px;
     height: 200px;
 }
-.image2 {
-    position: absolute;
-    top:-610px;
-    bottom:0;
-    left:410px;
-    right:0;
-    display: block;
-    width: 200px;
-    height: 610px;
-}
 .text {
     color: white;
     font-size: 20px;
@@ -69,7 +59,7 @@ p{
     left:0;
     background-color: #BCD3B9;
 }
-.container:hover .overlayLeft{
+.box:hover .overlayLeft{
     width: 100%;
 }
 /* Fearless*/
