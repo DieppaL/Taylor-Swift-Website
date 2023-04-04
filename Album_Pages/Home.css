@@ -1,0 +1,23 @@
+body{
+    background-color: lavender;
+}
+h2{
+    color: midnightblue;
+    text-align: center;
+}
+p{
+    color: #0F1D26;
+    text-indent: 25px;
+} 
+.px-2 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+} 
+.py-2 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+} 
+image{
+    width:225px;
+    height:225px;
+}

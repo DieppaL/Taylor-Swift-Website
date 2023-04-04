@@ -1,0 +1,12 @@
+p{
+    color: #0F1D26;
+    text-indent: 25px;
+} 
+.px-3 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+} 
+.py-1 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+} 
